@@ -5,10 +5,20 @@
   "homepage": "https://liudmylakopyl.github.io/goit-js-hw-08/",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /goit-js-hw-08/"
+    "build": "parcel build src/*.html --public-url /goit-js-hw-08/",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/liudmylakopyl/goit-js-hw-08.git"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "parcel": "^2.15.4"
+  },
+  "dependencies": {
+    "@vimeo/player": "^2.29.0",
+    "lodash.throttle": "^4.1.1",
+    "simplelightbox": "^2.14.3"
   }
 }
